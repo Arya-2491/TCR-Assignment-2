@@ -1,0 +1,136 @@
+body{
+    background-color: hsla(250, 0% , 90% , 0.1);
+    color:#757575;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding:15px;
+}
+.container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content{
+    background-color:hsla(250, 0% , 90% , 1);
+}
+.intro-img{
+    background-position: center;
+    background-size:cover;
+    min-height: 425px;
+}
+.page{
+    color:#333333;
+    text-align: center;
+}
+.page-header{
+    text-align: center; 
+}
+.page-header {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.section-heading {
+    color:#333333;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+table {
+    width: 100%;
+    border-spacing: 0px;
+  }
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+ 
+  .text{ text-align: left; }
+   
+  th {
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  tr:nth-child(odd) { background-color:azure; }
+  tr.tr-header {
+    background-color: #c4cdd6;
+    height: 50px;
+  }
+   
+  .section {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+  .about section{
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+ 
+  .abc { margin-bottom: 0; }
+  img {
+     max-width: 100%; 
+    }
+  figure { margin: 0; }
+  figcaption { text-align: center; }
+
+  figcaption span {
+    display: block;
+    color:#766f6f;
+    font-size: 18px;
+  }
+   
+  .item-name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+    
+  .special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    box-sizing: border-box;
+  }
+  .image{
+    height: 160px;
+    width: 200px;
+    border-radius: 15px;
+  }
+  .special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  hr {
+    width: 60%;
+    border: 0.5px solid rgb(153, 149, 149);
+  }
+  .contact-link {
+    color: #766f6f;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  a { transition: all 0.3s ease; }
+  .contact-link:hover { color: #000000; }
+  .footer{
+    color: #333333;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
